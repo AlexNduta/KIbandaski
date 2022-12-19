@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "87302497821",
+    "project_id": "kibandaski-5aa29",
+    "storage_bucket": "kibandaski-5aa29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87302497821:android:1d2fde698f53dfa44d08f4",
+        "android_client_info": {
+          "package_name": "com.example.kibandaski"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87302497821-l3jalpned8t7r07gtm4kekn9kgvoeojo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kibandaski",
+            "certificate_hash": "2a7f25cc3ee7b3695969633a1e0deed49aa88f8f"
+          }
+        },
+        {
+          "client_id": "87302497821-568b27t9qpd6iihbkg0rlrjqs89jve4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_g_lk2NtW11Icqp9dQVaXxicNiGoEvAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87302497821-568b27t9qpd6iihbkg0rlrjqs89jve4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

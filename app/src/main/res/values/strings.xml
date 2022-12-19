@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KIbandaski</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="et_hint_email_id">Email</string>
+    <string name="et_hint_password">Forgot Password</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="extra">Login to your account to continue shoping</string>
+</resources>
