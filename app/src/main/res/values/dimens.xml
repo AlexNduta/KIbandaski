@@ -6,4 +6,8 @@
     <dimen name ="small_text">16dp</dimen>
 
 
+    <dimen name ="toolbar_title_paddingStart">-25dp</dimen>
+
+
+
 </resources>

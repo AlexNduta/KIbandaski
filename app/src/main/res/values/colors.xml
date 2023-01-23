@@ -11,5 +11,8 @@
     <color name="orange">#FF9800</color>
     <color name="yellow">#EDB766</color>
     <color name="clear">#03A1988B</color>
+    <color name="snackbarSucess">#13143C</color>
+    <color name="snackbarFailure">#F44336</color>
+
 
 </resources>

@@ -6,4 +6,15 @@
     <string name="et_hint_password">Forgot Password</string>
     <string name="welcome">Welcome Back</string>
     <string name="extra">Login to your account to continue shoping</string>
+    <string name="started">Getting Started</string>
+    <string name="signupheader">Create an account to continue shopping</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="signin">sign in</string>
+    <string name="signup">sign Up</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="er_message_Name">Please enter your name</string>
+    <string name="er_message_Email">Please enter your email</string>
+    <string name="er_message_Password">Please enter your password</string>
+    <string name="er_message_Confirm_Password">Please confirm your password</string>
+    <string name="er_message_Password_mismatch">Your passwords do not match</string>
 </resources>

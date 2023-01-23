@@ -13,6 +13,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+
     </style>
 
     <style name="Theme.KIbandaski.NoActionBar">
@@ -20,5 +22,6 @@
         <item name="android:windowNoTitle">true</item>
 
     </style>
+
 
 </resources>
