@@ -47,7 +47,7 @@
 
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_Signup_big"
         android:layout_width="343dp"
         android:layout_height="53dp"
         android:layout_marginTop="52dp"
@@ -56,10 +56,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.676"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
 
     <com.example.kibandaski.utils.Edittext
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_name"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="319dp"
         android:layout_height="57dp"
@@ -73,7 +73,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <com.example.kibandaski.utils.Edittext
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/et_password"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="319dp"
         android:layout_height="57dp"
@@ -84,21 +84,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.608"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/et_email"
         tools:ignore="MissingConstraints" />
 
     <com.example.kibandaski.utils.Edittext
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/et_email"
         android:layout_width="319dp"
         android:layout_height="57dp"
         android:layout_marginTop="52dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.608"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/et_name"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -110,7 +110,7 @@
         android:text="Already have an account?"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Signup_big" />
 
     <TextView
         android:id="@+id/signinbig_tv"
@@ -123,6 +123,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Signup_big" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

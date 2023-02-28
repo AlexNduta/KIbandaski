@@ -1,9 +1,8 @@
-package com.example.kibandaski.UI
+package com.example.kibandaski.UI.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.kibandaski.R
 import com.example.kibandaski.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {

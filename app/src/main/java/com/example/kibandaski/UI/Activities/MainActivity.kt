@@ -1,4 +1,4 @@
-package com.example.kibandaski.UI
+package com.example.kibandaski.UI.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
