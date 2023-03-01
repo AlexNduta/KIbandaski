@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/welcome"
-    tools:context=".UI.WelcomeScreen">
+    tools:context=".UI.Activities.WelcomeScreen">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Signup_btn"
         android:layout_width="279dp"
         android:layout_height="56dp"
         android:backgroundTint="@color/navy_blue"
@@ -19,9 +19,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signin_btn"
         android:layout_width="279dp"
         android:layout_height="56dp"
+        android:layout_marginBottom="80dp"
         android:backgroundTint="@color/clear"
         android:text="@string/sign_in"
         app:layout_constraintBottom_toBottomOf="parent"

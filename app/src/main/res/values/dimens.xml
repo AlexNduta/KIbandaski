@@ -4,6 +4,9 @@
     <dimen name ="button_background_radius">10dp</dimen>
     <dimen name ="large_text">28dp</dimen>
     <dimen name ="small_text">16dp</dimen>
+    <dimen name ="toolbar_title_paddingStart">-25dp</dimen>
+
 
 
 </resources>
+

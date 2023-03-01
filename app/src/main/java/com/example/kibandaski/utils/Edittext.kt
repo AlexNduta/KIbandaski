@@ -14,7 +14,7 @@ class Edittext(context: Context, attr:AttributeSet):AppCompatEditText(context, a
         applyfont()
     }
     private fun applyfont(){
-        val typeface: Typeface = Typeface.createFromAsset(context.assets,"OpenSans-Regular.ttf")
+        val typeface: Typeface = Typeface.createFromAsset(context.assets,"OpenSans-Light.ttf")
         setTypeface(typeface)
     }
 }

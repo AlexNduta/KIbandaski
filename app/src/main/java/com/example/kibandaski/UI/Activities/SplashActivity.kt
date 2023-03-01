@@ -1,4 +1,4 @@
-package com.example.kibandaski.UI
+package com.example.kibandaski.UI.Activities
 
 import android.content.Intent
 import android.os.Build
@@ -8,6 +8,7 @@ import android.os.Handler
 import android.view.WindowInsets
 import android.view.WindowManager
 import com.example.kibandaski.R
+import com.example.kibandaski.UI.Activities.WelcomeScreen
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,16 +13,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KIbandaski"
         tools:targetApi="31">
+
         <activity
-            android:name=".UI.MainActivity"
+            android:name=".UI.Activities.HoldingActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.LoginActivity"
+            android:name=".UI.Activities.BaseActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".UI.Activities.LoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".UI.Activities.MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".UI.Activities.RegisterActivity"
             android:exported="false"
+            android:parentActivityName=".UI.Activities.WelcomeScreen"
             tools:ignore="ExtraText">
             <meta-data
                 android:name="android.app.lib_name"
@@ -29,9 +53,9 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.KIbandaski.NoActionBar"
         </activity>
-        <activity android:name=".UI.WelcomeScreen" />
+        <activity android:name=".UI.Activities.WelcomeScreen" />
         <activity
-            android:name=".UI.SplashActivity"
+            android:name=".UI.Activities.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
